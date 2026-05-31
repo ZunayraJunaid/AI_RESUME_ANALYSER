@@ -1,2 +1,1 @@
-# AI_RESUME_ANALYSER
-AI-powered resume analysis web application built with Flask and Python that evaluates PDF resumes, extracts key information, and provides intelligent feedback for resume improvement.
+AI Resume Analyser is a web-based application developed using Flask, Python, HTML, and CSS that analyzes PDF resumes using AI and machine learning techniques. The system extracts resume content, evaluates skills and qualifications, matches relevant keywords, and provides feedback to help users improve their resumes. The project includes frontend and backend development, PDF processing, model training, software testing, project documentation, and Trello-based project management, making it a complete Software Quality Assurance (SQA) project.
