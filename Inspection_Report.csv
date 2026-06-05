@@ -1,0 +1,11 @@
+Defect ID,Module,Description,Severity,Status,Priority,Steps,Expected Result,Actual Result,Assigned To,Recommendation
+INS-001,Resume Upload,Corrupted PDF crash,Critical,Open,High,Upload corrupted PDF,Error message shown,Application crashes,Backend Team,Add exception handling
+INS-002,Upload Module,No file size validation,Major,Open,High,Upload >20MB PDF,File rejected,Slow processing,Backend Team,Limit size to 5MB
+INS-003,Upload Module,Unsupported format accepted,Major,Open,Medium,Upload DOCX,Format rejected,Processing fails,Backend Team,Validate extensions
+INS-004,Scoring Engine,Duplicate skills counted,Major,Open,Medium,Repeat Python 10x,Count once,Score inflated,ML Team,Deduplicate skills
+INS-005,Frontend,No loading indicator,Minor,Open,Low,Analyze resume,Spinner visible,Blank screen,Frontend Team,Add progress bar
+INS-006,Feedback Engine,Generic feedback,Minor,Open,Low,Analyze weak resume,Personalized feedback,Generic output,ML Team,Rule-based suggestions
+INS-007,Validation,Email validation missing,Minor,Open,Medium,Use invalid email,Validation error,Accepted,Backend Team,Regex validation
+INS-008,Results,No score breakdown,Minor,Open,Low,View results,Detailed scores,Only total shown,Frontend Team,Show component scores
+INS-009,Reports,No PDF report export,Minor,Open,Low,Generate report,Download option,Unavailable,Backend Team,Add PDF export
+INS-010,Analyzer,Formatting ignored,Minor,Open,Low,Upload styled resume,Formatting analyzed,Ignored,ML Team,Layout analysis
